@@ -30,7 +30,6 @@ namespace MediatorPattern
 
             Console.Read();
         }
-
         public abstract class Mediator
         {
             public abstract void Send(string msg, Colleague colleague);
